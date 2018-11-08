@@ -1,38 +1,8 @@
 api_version: 0.0.2
-name: example_functions
+name: tejas_functhings
 edit:
-  image: eu.gcr.io/staging-205711/datascience-internal-all:latest
+  image: fabien0102/jupyterjs #eu.gcr.io/staging-205711/datascience-internal-all:latest
 functions:
-  go-hello:
-    lang: dockerfile
-    function: /functions/go-hello
-  r-hello:
-    lang: dockerfile
-    handler: /functions/r-hello
-  python-hello:
-    lang: dockerfile
-    handler: /functions/python-hello
-  js-hello:
+  js-lewl:
     lang: dockerfile
     handler: /functions/js-hello
-  ruby-hello:
-    lang: dockerfile
-    handler: /functions/ruby-hello
-  java-hello:
-    lang: dockerfile
-    handler: /functions/java-hello
-  cpp-hello:
-    lang: dockerfile
-    handler: /functions/cpp-hello
-  julia-hello:
-    lang: dockerfile
-    handler: /functions/julia-hello
-  haskell-hello:
-    lang: dockerfile
-    handler: /functions/haskell-hello
-  scala-hello:
-    lang: dockerfile
-    handler: /functions/scala-hello
-  rust-hello:
-    lang: dockerfile
-    handler: /functions/rust-hello
