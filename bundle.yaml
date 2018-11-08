@@ -1,7 +1,7 @@
 api_version: 0.0.2
 name: tejas_functhings
 edit:
-  image: fabien0102/jupyterjs #eu.gcr.io/staging-205711/datascience-internal-all:latest
+  image: eu.gcr.io/staging-205711/datascience-internal-all:latest
 functions:
   js-lewl:
     lang: dockerfile
